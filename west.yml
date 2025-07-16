@@ -1,0 +1,13 @@
+manifest:
+  remotes:
+    - name: typeractive
+      url-base: https://github.com/typeractive
+
+  projects:
+    - name: zmk
+      remote: typeractive
+      revision: typeractive-main
+      import: app/west.yml
+
+  self:
+    path: config
